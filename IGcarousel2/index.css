@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#door1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#door2 {
+    position: absolute;
+    top: 51%;
+    left: 53.4%;
+    transform: translate(-50%, -53.4%);
+    display: none;
+}
+
+.buttonContainer {
+    position: absolute;
+    top: 80%;
+    left: 51%;
+    transform: translate(-80%, -51%);
+}
